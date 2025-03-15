@@ -32,18 +32,18 @@ This project does not use custom classes but relies on the regression models pro
 After evaluating the models, the following results were obtained:
 
 - **Linear Regression**:
-  - MSE: 3424.31
-  - R2: 0.46
+  - MSE: 2900.1936284934823
+  - R2: 0.45260276297191926
 
 - **Decision Tree Regression**:
-  - MSE: 4025.23
-  - R2: 0.36
+  - MSE: 4976.797752808989
+  - R2: 0.060653981041140725
 
 - **Random Forest Regression**:
-  - MSE: 2901.23
-  - R2: 0.52
+  - MSE: 2952.0105887640448
+  - R2: 0.4428225673999313
 
-Based on these metrics, the Random Forest Regression model gives the best performance with the lowest MSE of 2901.23 and the highest R2 score of 0.52. This indicates that the Random Forest model is better at capturing the variance in the data and making accurate predictions compared to the Linear Regression and Decision Tree models. The Linear Regression model also performs reasonably well, but the Decision Tree model has the lowest performance, likely due to overfitting on the training data.
+Based on these metrics, the Linear Regression model gives the best performance with the lowest MSE of 2900.1936284934823 and a relatively high R2 score of 0.45260276297191926. This indicates that the Linear Regression model is better at capturing the variance in the data and making accurate predictions compared to the Decision Tree and Random Forest models. The Decision Tree model has the lowest performance, likely due to overfitting on the training data, while the Random Forest model performs reasonably well but not as good as the Linear Regression model.
 
 ## Conclusion
-The Random Forest Regression model is the best performer among the three models evaluated in this project. It provides a good balance of accuracy and robustness, making it a suitable choice for predicting diabetes progression.
+The Linear Regression model is the best performer among the three models evaluated in this project. It provides a good balance of accuracy and robustness, making it a suitable choice for predicting diabetes progression.
